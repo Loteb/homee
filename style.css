@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+html{
+    direction: rtl;
+}
+.header{
+    background-position: center;
+    background-image: url("images/bgheader.png");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.header_content{
+    padding-left: 290px;
+    text-align: center;
+    padding-top: 120px;
+}
+.header_content p{
+    margin-top: 45px;
+    color: white;
+    font-family: "Open Sans Hebrew";
+    font-weight: 400;
+    font-size: 28px;
+}
+.header_content span{
+    font-weight: 700;
+    font-size: 34px;
+}
+.black{
+    background-color: #333;
+    height: 110px;
+    text-align: center;
+}
+.black p{
+    font-size: 24px;
+    font-family: "Open Sans Hebrew";
+    font-weight: 400;
+    color: white;
+}
+.black span{
+    font-weight: 700;
+    color: #8abee4;
+}
+.form{
+    text-align: center;
+    background-color: #abd3ed;
+    background-image: linear-gradient(to top, rgba(6, 88, 150, 0.29) 0%, transparent 100%);
+    height: 195px;
+}
+.form p{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Open Sans Hebrew";
+    font-size: 30px;
+    font-weight: 400;
+}
+.form a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.link{
+    text-align: center;
+}
+.form input{
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+    height: 45px;
+    max-width: 250px;
+    transition: 2s ease-in-out;
+    outline: none;
+    margin-left: 10px;
+    border: 0;
+}
+.form input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.form input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.form input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.form input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.form input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form nput:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+.form input[type=submit]:hover{
+    font-weight: 700;
+    background-color: #ea1920;
+    color: white;
+    transition: 2s ease-in-out;
+}
+.info{
+    text-align: center;
+}
+.info span{
+    margin-top: 65px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.info p{
+    margin-top: 25px;
+    color: #ea1920;
+    font-size: 48px;
+    font-weight: 700;
+}
+.icons{
+    background-image: url("images/bg-strip.png");
+    background-repeat: no-repeat;
+}
+.icon_content{
+    text-align: center;
+}
+.icon_content a{
+    margin-top: 65px;
+    display: block;
+    margin-bottom: 25px;
+}
+.icon_content span{
+    font-family: "Open Sans Hebrew";
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media(max-width:576px){
+    .header{
+        height: 670px;
+        background-size: cover;
+    }
+    .header_content{
+        padding-left: 0px;
+    }
+    .black{
+        height: 260px;
+    }
+    .form{
+        height: 490px;
+    }
+    .form input{
+        margin-bottom: 10px;
+    }
+    .icons{
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    .icon_content:last-child{
+        margin-bottom: 30px;
+    }
+}
+@media(min-width:576px){
+    .header_content{
+        padding-left: 0px;
+    }
+    .form{
+        height: 450px;
+    }
+    .form input{
+        margin-bottom: 10px;
+    }
+    .black{
+        height: 170px;
+    }
+    .icons{
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    .icon_content:last-child{
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:1200px){
+    .header_content{
+        padding-left: 290px;
+    }
+    .black{
+        height: 110px;
+    }
+    .form{
+        height: 195px;
+    }
+}
