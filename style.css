@@ -55,4 +55,125 @@
     background-color: #133e6d;
     background-image: linear-gradient(35deg, rgba(7, 82, 165, 0.56) 0%, rgba(3, 58, 115, 0.56) 21%, rgba(7, 82, 165, 0.56) 50%, rgba(3, 58, 115, 0.56) 74%, rgba(7, 82, 165, 0.56) 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: "Play";
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.left{
+    padding-top: 40px;
+    text-align: center;
+}
+.right{
+    padding-top: 140px;
+    text-align: center;
+}
+.body_content{
+    text-align: center;
+    font-family: "Play";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.body_content span{
+    color: #033a73;
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    margin-top: 30px;
+}
+.body_content p{
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+}
+.info{
+    height: 660px;
+    background-image: linear-gradient(35deg, rgba(7, 82, 165, 0.36) 0%, rgba(3, 58, 115, 0.36) 21%, rgba(7, 82, 165, 0.36) 50%, rgba(3, 58, 115, 0.36) 74%, rgba(7, 82, 165, 0.36) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #033a73;
+    opacity: 0.94;
+    color: white;
+    font-family: "Play";
+    text-transform: uppercase;
+    text-align: center;
+}
+.info_content{
+    display: flex;
+    text-align: center;
+}
+.info h2{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.functions{
+    margin-right: 30px;
+}
+.functions p{
+    font-size: 16px;
+    width: 158px;
+    margin-left: 20px;
+}
+.interest{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.iterest_content_right{
+    text-align: right;
+    margin-right: 80px;
+}
+.iterest_content_left{
+    text-align: left;
+    margin-left: 60px;
+}
+.interest a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #0752a5;
+    border: 20px solid #033a73;
+    font-family: "Play";
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 23px;
+    transition: 1s ease-out;
+}
+.interest a i{
+    font-size: 70px;
+}
+.interest a:hover{
+    transition: 1s ease-out;
+    color:yellow;
+    text-decoration: none;
+    background-color: red;
+    border: 20px solid red;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #0752a5;
+}
+footer a{
+    display: block;
+}
+footer span{
+    font-family: "Play";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
 }
