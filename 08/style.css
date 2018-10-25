@@ -31,13 +31,14 @@
     margin: 0 auto;
     color: #999;
     letter-spacing: 0px;
-    font-family: 'PTSans';
+    font-family: 'PTSans','Regular';
     font-size: 18px;
     padding-right: 23px;
     font-weight: 400;
     line-height: 30px;
     padding-left: 1px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
 }
 .icons{
     padding-left: 91px !important;
@@ -67,7 +68,7 @@
     color: #1b1b1b;
     font-family: 'Montserrat';
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 10px;
     transition: 1s ease-in-out;
@@ -75,7 +76,7 @@
 .box p{
     padding: 15px;
     color: #777;
-    font-family: 'PTSans';
+    font-family: 'PTSans','Regular';
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
