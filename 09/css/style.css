@@ -1,6 +1,6 @@
-.container{
+/* .container{
     max-width: 960px !important;
-}
+} */
 .head{
     text-align: center;
     padding-top: 92px;
@@ -24,27 +24,25 @@
     font-weight: 400;
     line-height: 30px;
 }
-.main .container{
-    padding: 0 !important;
-}
 .content{
-    padding: 36px;
-    margin-left: -25px;
+    padding: 35px 100px;
     display: flex;
 }
 .socmedia{
     display: flex;
-    padding-left: 37px !important;
 }
+
 .socmedia a{
-    display: inline-block;
-    margin-right: 26px;
+    max-width: 140px;
+    margin-right: 20px;
     height: 140px;
     border-radius: 5px;
     text-align: center;
     padding-top: 40px;
-    padding-right: 7px;
-    transition: 1s ease-in-out;
+    /* transition: 1s ease-in-out; */
+}
+.socmedia--sec{
+    margin-top: 20px;
 }
 .socmedia a i{
     font-size: 52px;
@@ -84,7 +82,7 @@
 .dribbble:hover{
     background-color: #ff0084;
     color: white;
-}
+}/*
 .content form{
     padding-left: 37px !important;
 }
@@ -167,4 +165,4 @@ input[type=submit]{
     color: white;
     display: block;
     cursor: pointer;
-}
+} */
