@@ -1,0 +1,31 @@
+.container{
+    max-width: 1366px;
+}
+.logo{
+    text-align: center;
+    padding-top: 30px;
+}
+.menu{
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+}
+.menu li{
+    margin-right: 36px;
+    list-style-type: none;
+}
+.menu a{
+    font-family: 'Rufina';
+    color: #a19795;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid inherit;
+}
+.menu a:hover{
+    border-bottom: 2px solid #a19795;
+    color: #474241;
+    font-weight: 700;
+}

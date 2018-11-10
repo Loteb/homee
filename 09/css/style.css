@@ -1,6 +1,6 @@
-.container{
+/* .container{
     max-width: 960px !important;
-}
+} */
 .head{
     text-align: center;
     padding-top: 92px;
@@ -24,27 +24,25 @@
     font-weight: 400;
     line-height: 30px;
 }
-.main .container{
-    padding: 0 !important;
-}
 .content{
-    padding: 36px;
-    margin-left: -25px;
+    padding: 35px 100px;
     display: flex;
 }
 .socmedia{
     display: flex;
-    padding-left: 37px !important;
 }
+
 .socmedia a{
-    display: inline-block;
-    margin-right: 26px;
+    max-width: 140px;
+    margin-right: 20px;
     height: 140px;
     border-radius: 5px;
     text-align: center;
     padding-top: 40px;
-    padding-right: 7px;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out; 
+}
+.socmedia--sec{
+    margin-top: 20px;
 }
 .socmedia a i{
     font-size: 52px;
@@ -66,9 +64,7 @@
     color: white;
 }
 .instagram{
-    top: 158px;
     border: 1px solid #517fa4;
-    left: -321px;
     color: #517fa4;
 }
 .instagram:hover{
@@ -77,8 +73,6 @@
 }
 .dribbble{
     border: 1px solid #ff0084;
-    top: 158px;
-    left: -320px;
     color: #ff0084;
 }
 .dribbble:hover{
@@ -86,7 +80,16 @@
     color: white;
 }
 .content form{
-    padding-left: 37px !important;
+    padding-left: 8px;
+}
+#firstname{
+    margin-right: 14.6px;
+}
+#email{
+    margin-right: 14.6px;
+}
+.top--second{
+    margin: 10px 0;
 }
 .content form input[type=text],[type=email]{
     margin-bottom: 9px;
@@ -94,6 +97,7 @@
     border: 1px solid #bababa;
     border-radius: 5px;
     outline: none;
+    min-width: 300px;
 }
 .content form input[type=text]:focus,[type=email]:focus{
     border: 1px solid #2ec06c;
@@ -109,6 +113,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
  
 
 .content form input{
+    padding-left: 17px;
     color: #666;
     font-family: 'Asap';
     font-style: italic;
@@ -117,20 +122,7 @@ input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-ind
     line-height: 30px;
     letter-spacing: 0.02em;
 }
-#lastname{
-    top: -60px;
-    right: -320px;
-}
-#email{
-    top: -50px;
-}
-#projectname{
-    top: -109px;
-    right: -320px;
-}
 .message{
-    margin-top: -100px;
-    padding: 0 !important;
     display: flex;
 }
 .message textarea{
@@ -161,10 +153,17 @@ input[type=submit]{
     outline: none;
     border-left: 0;
 }
-.submit i{
+.submit {
+    display: flex;
+    margin-left: -40px;
+    text-align: center;
+}
+.submit input:hover{
+    background-color:  #025f29;
+}
+.submit img{
     position: absolute;
-    top: 72px;
-    color: white;
-    display: block;
+    margin-top: 72px;
+    margin-left: 12px;
     cursor: pointer;
 }
