@@ -1,0 +1,14 @@
+.header{
+    background-image: url('/imgs/header.png');
+    text-align: center;
+    color: #030303;
+    font-family: 'Century Gotic' 'regular';
+    font-weight: 400;
+    line-height: 84px;
+}
+.header__h1{
+    font-size: 103px;
+}
+.header__h2{
+    font-size: 65px;
+}
