@@ -1,14 +1,99 @@
 .header{
-    background-image: url('/images/header.png');
-    text-align: center;
+    height: 1200px;
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/header.jpg');
+    text-align: right;
     color: #030303;
-    font-family: 'Century Gotic' 'regular';
+    font-family: 'CenturyGotic' 'regular';
     font-weight: 400;
     line-height: 84px;
+}
+.header__menu{
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-bottom: 325px;
+}
+.header__menu__btn{
+    font-size: 60px;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.header__menu__btn:hover{
+    color: red;
+}
+.header .row{
+    text-align: center;
 }
 .header__h1{
     font-size: 103px;
 }
 .header__h2{
     font-size: 65px;
+}
+.about{
+    padding-top: 150px;
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/about.png');
+    height: 1035px;
+    text-align: right;
+}
+.about__h1{
+    transform: rotate(10deg);
+    color: #fdfcfb;
+    font-family: 'FranklinGothic';
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.about__h1--second{
+    background: #8a564a;
+    color: #c79692;
+    transform: none;
+    font-family: 'FranklinGothic';
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 65px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: -155px;
+    padding: 10px 15px;
+}
+.about__span{
+    color: #8a564a;
+    font-family: "Segoe Print";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+}
+.about__text{
+    margin-bottom: 55px;
+    margin-left: 475px;
+    margin-right: -207px;
+    display: block;
+    text-align: left;
+    color: #211c1c;
+    font-family: "Century Gothic";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.about__btn{
+    display: inline-block;
+    color: #fefefe;
+    font-family: "Segoe Print";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-right: -657px;
+    background-color: #76131a;
+    padding: 15px 35px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    transition: .5s;
+}
+.about__btn:hover{
+    background-color: goldenrod;
+    color: #76131a;
+    transform: rotate(720deg);
 }
