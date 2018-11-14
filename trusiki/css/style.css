@@ -1,3 +1,7 @@
+.back_resize{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
 .header{
     height: 1200px;
     background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/header.jpg');
@@ -96,4 +100,35 @@
     background-color: goldenrod;
     color: #76131a;
     transform: rotate(720deg);
+}
+.models{
+    background-color: #4e2627;
+    width: 100%;
+    padding: 150px 180px;
+    height: 1200px;
+    text-align: center;
+}
+.models .row{
+    flex-wrap: nowrap !important;
+}
+.models__content{
+    margin-right: 135px;
+}
+.models__content--first{
+    margin-left: -150px;
+}
+.models__text{
+    color: #fbf7f7;
+    font-family: "Century Gothic";
+    font-size: 40px;
+    font-weight: 400;
+    display: block;
+    margin-top: -135px;
+    line-height: 48px;
+    margin-left: 115px;
+}
+.purchese{
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/purchese.png');
+    height: 1018px;
+    text-align: right;
 }
