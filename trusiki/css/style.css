@@ -9,14 +9,14 @@
     background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/header.jpg');
     text-align: right;
     color: #030303;
-    font-family: 'CenturyGotic' 'regular';
+    font-family: 'Century Gothic';
     font-weight: 400;
     line-height: 84px;
 }
 .header__menu{
     padding-top: 40px;
-    padding-right: 40px;
-    margin-bottom: 325px;
+    padding-right: 60px;
+    margin-bottom: 370px;
 }
 .header__menu__btn{
     font-size: 60px;
@@ -30,9 +30,12 @@
     text-align: center;
 }
 .header__h1{
+    font-weight: 500;
     font-size: 103px;
 }
 .header__h2{
+    margin-top: -50px;
+    font-weight: 500;
     font-size: 65px;
 }
 .about{
@@ -63,7 +66,6 @@
     display: inline-block;
     margin-top: 20px;
     display: inline-block;
-    margin-right: -155px;
     padding: 10px 15px;
 }
 .about__span{
@@ -137,12 +139,4 @@
     background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/purchese.png');
     height: 1018px;
     text-align: right;
-}
-@media(min-width:1000px){
-    .models__content--first{
-        margin-left: -35px;
-    }
-    .models__content{
-        margin-right: 70px;
-    }
 }

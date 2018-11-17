@@ -113,8 +113,3 @@
 .offset-11 {
     margin-left: calc(100% / 12 * 11);
 }
-@media(min-width:1400px){
-    .container{
-        max-width: 1560px;
-    }
-}
