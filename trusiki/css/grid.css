@@ -2,6 +2,7 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1140px;
     padding: 0 15px;
@@ -111,4 +112,9 @@
 }
 .offset-11 {
     margin-left: calc(100% / 12 * 11);
+}
+@media(min-width:1400px){
+    .container{
+        max-width: 1560px;
+    }
 }
