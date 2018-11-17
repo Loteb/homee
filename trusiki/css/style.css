@@ -5,8 +5,8 @@
 }
 .header{
     height: 1200px;
-    /* background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/header.jpg'); */
-    background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/header.jpg');
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/header.jpg');
+    /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/header.jpg'); */
     text-align: right;
     color: #030303;
     font-family: 'Century Gothic';
@@ -40,15 +40,15 @@
 }
 .about{
     padding-top: 150px;
-    /* background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/about.png'); */
-    background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/about.png');
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/about.png');
+    /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/about.png'); */
     height: 1035px;
     text-align: right;
 }
 .about__h1{
     transform: rotate(10deg);
     color: #fdfcfb;
-    font-family: 'FranklinGothic';
+    font-family: 'Franklin Gothic';
     font-size: 90px;
     font-weight: 300;
     line-height: 65px;
@@ -58,7 +58,7 @@
     background: #8a564a;
     color: #c79692;
     transform: none;
-    font-family: 'FranklinGothic';
+    font-family: 'Franklin Gothic';
     font-size: 90px;
     font-weight: 300;
     line-height: 65px;
@@ -77,8 +77,6 @@
 }
 .about__text{
     margin-bottom: 55px;
-    margin-left: 475px;
-    margin-right: -207px;
     display: block;
     text-align: left;
     color: #211c1c;
@@ -88,13 +86,13 @@
     line-height: 48px;
 }
 .about__btn{
-    display: inline-block;
+    display: block;
+    text-align: center;
     color: #fefefe;
     font-family: "Segoe Print";
     font-size: 50px;
     font-weight: 400;
     line-height: 48px;
-    margin-right: -657px;
     background-color: #76131a;
     padding: 15px 35px;
     padding-bottom: 25px;
@@ -102,8 +100,6 @@
     transition: .5s;
 }
 .about__btn:hover{
-    background-color: goldenrod;
-    color: #76131a;
     transform: rotate(720deg);
 }
 .models{
@@ -135,8 +131,65 @@
     width: 100%;
 }
 .purchese{
-    /* background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/purchese.png'); */
-    background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/purchese.png');
-    height: 1018px;
+    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/purchese.png');
+    /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/purchese.png'); */
+    height: 990px;
     text-align: right;
+    padding-top: 50px;
+}
+.purchese__buy{
+    transform: rotate(10deg);
+    color: #784042;
+    font-family: 'Franklin Gothic';
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.purchese__now{
+    color: #e2a4a0;
+    font-family: 'Franklin Gothic';
+    background-color: black;
+    font-size: 90px;
+    display: inline-block;
+    font-weight: 800;
+    line-height: 65px;
+    margin-top: 95px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    width: 100%;
+    text-align: center;
+}
+.purchese__discont{
+    color: #020202;
+    font-family: "Century Gothic";
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 65px;
+}
+.purchese__btn{
+    color: #030303;
+    text-align: center;
+    background-color: white;
+    font-family: "Segoe Print";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-top: -65px;
+    cursor: pointer;
+    position: relative;
+}
+.purchese__btn:hover{
+    transform: rotate(-3deg);
+}
+.puchese__btn--back{
+    margin-top: 110px;
+    transform: rotate(-3deg);
+    background-color: #784042;
+}
+.footer{
+    margin-top: -90px;
+    background-image: url("C:/Users/user/Desktop/works/ads/homee/trusiki/images/footer.png");
+    height: 1636px;
 }
