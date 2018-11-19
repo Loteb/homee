@@ -193,3 +193,110 @@
     background-image: url("C:/Users/user/Desktop/works/ads/homee/trusiki/images/footer.png");
     height: 1636px;
 }
+.order{
+    padding-top: 175px;
+}
+.order__h1{
+    margin-bottom: 120px;
+    color: #030303;
+    font-family: 'Franklin Gothic';
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 108px;
+    text-transform: uppercase;
+}
+.order__text{
+    color: #e1cfca;
+    font-family: 'Century Gothic';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.order__form__input{
+    outline: none;
+    padding-left: 60px;
+    min-width: 470px;
+    max-height: 40px;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    color: #e1cfca;
+    font-weight: 400;
+    line-height: 108px;
+    border: 0;
+    border-bottom: 1px solid #bd978e;
+    background-color: inherit;
+}
+.order__form__input:first-child{
+    margin-bottom: 55px;
+}
+.order__form__input::placeholder{
+    color: #e1cfca;
+}
+.order__form__submit{
+    margin-top: 120px;
+    padding: 30px 35px;
+    color: #fefefe;
+    font-family: "Segoe Print";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 48px;
+    background-color: #76131a;
+    border: 0;
+    cursor: pointer;
+}
+.order__form__icon{
+    font-size: 30px;
+    color: #fefefe;
+    display: block;
+    margin-left: 15px;
+    position: absolute;
+    margin-top: -35px;
+}
+.order__form__icon--first{
+    margin-top: -90px;
+}
+.order__form__icon--second{
+    transform: rotate(90deg);
+}
+.socmedia{
+    margin-top: 300px;
+}
+.socmedia__icon{
+    display: flex;
+}
+.socmedia__icons{
+    cursor: pointer;
+    color: #020202;
+    font-size: 45px;
+    font-weight: 400;
+}
+.socmedia__copyright{
+    display: block;
+    margin-top: 50px;
+    color: #020202;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.swiper-slide{
+    max-width: 400px;
+}
+.choose{ 
+    padding-top: 150px;
+    background-color: #f2d3d1;
+    height: 1442px;
+}
+.choose__text{
+    transform: rotate(-5deg);
+    padding: 10px 10px;
+    display: block;
+    max-width: 1225px;
+    color: #fffefd;
+    font-family: 'Franklin Gothic';
+    background-color: #76131a;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 48px;
+    text-transform: uppercase;
+}

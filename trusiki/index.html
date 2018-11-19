@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/utilities.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-10">
-                    <h1 class="choose__text"></h1>
+                    <h1 class="choose__text">Спасибо, что выбрали нас</h1>
                 </div>
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
@@ -114,7 +114,49 @@
     <div class="footer back_resize">
         <div class="container">
             <div class="row">
-                <div class="order"></div>
+                <div class="order offset-8 no-gutters">
+                    <h1 class="order__h1">
+                        Заказать  сейчас
+                    </h1>
+                    <p class="order__text">
+                        Заполните форму и мы перезвоним Вам в течение 10 минут
+                    </p>
+                    <form action="#" class="order__form">
+                        <input type="text" name="name" id="" class="order__form__input" placeholder="Имя">
+                        <i class="fas fa-user order__form__icon order__form__icon--first"></i>
+                        <input type="tel" name="phone" id="" class="order__form__input" placeholder="+38(___)___-__-__">
+                        <i class="fas fa-phone order__form__icon order__form__icon--second"></i>
+                        <input type="submit" value="заказать" class="order__form__submit">
+                    </form>
+                    <div class="socmedia col-12">
+                        <div class="socmedia__icon">
+                            <div class="col-3">
+                                <a href="#">
+                                    <i class="fab fa-facebook socmedia__icons"></i>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <i class="fab fa-twitter socmedia__icons"></i>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <i class="fab fa-instagram socmedia__icons"></i>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#">
+                                    <i class="far fa-envelope socmedia__icons"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <span class="socmedia__copyright">
+                                Copyright &copy;
+                                2018. All rights reserved
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -122,26 +164,12 @@
         crossorigin="anonymous"></script>
     <script src="js/swiper.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+         var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
     </script>
 </body>
-</html>
+</html> 
