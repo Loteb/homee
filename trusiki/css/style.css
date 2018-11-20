@@ -280,7 +280,8 @@
     line-height: 29px;
 }
 .swiper-slide{
-    max-width: 400px;
+    max-width: 100%;
+    text-align: center;
 }
 .swiper-slide img{
     margin-bottom: 100px;
