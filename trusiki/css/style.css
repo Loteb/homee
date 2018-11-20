@@ -5,7 +5,7 @@
 }
 .header{
     height: 1200px;
-    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/header.jpg');
+    background-image: url('../images/header.jpg');
     /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/header.jpg'); */
     text-align: right;
     color: #030303;
@@ -40,7 +40,7 @@
 }
 .about{
     padding-top: 150px;
-    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/about.png');
+    background-image: url('../images/about.png');
     /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/about.png'); */
     height: 1035px;
     text-align: right;
@@ -131,7 +131,7 @@
     width: 100%;
 }
 .purchese{
-    background-image: url('C:/Users/user/Desktop/works/ads/homee/trusiki/images/purchese.png');
+    background-image: url('../images/purchese.png');
     /* background-image: url('C:/Users/Администратор/Desktop/Новая%20папка/homee/trusiki/images/purchese.png'); */
     height: 990px;
     text-align: right;
@@ -190,7 +190,7 @@
 }
 .footer{
     margin-top: -90px;
-    background-image: url("C:/Users/user/Desktop/works/ads/homee/trusiki/images/footer.png");
+    background-image: url("../images/footer.png");
     height: 1636px;
 }
 .order{
