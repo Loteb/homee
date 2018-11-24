@@ -1,0 +1,170 @@
+@import 'normalize.scss';
+@import 'utilities.scss';
+@import 'grid.scss';
+
+.head{
+    text-align: center;
+    padding-top: 92px;
+    & h1{
+        color: #202020;
+        font-weight: 400;
+        font-family: 'Asap';
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        & span{
+            color: #2ec06c;
+            font-weight: 700;
+        }
+    }
+    & p{
+        color: #666;
+        font-family: 'Karla';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+.content{
+    padding: 35px 100px;
+    display: flex;
+    & .socmedia{
+        display: flex;
+        & a{
+            max-width: 140px;
+            margin-right: 20px;
+            height: 140px;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 40px;
+            transition: 0.5s ease-in-out; 
+            & i{
+                font-size: 52px;
+            }
+        }
+        &--sec{
+            margin-top: 20px;
+        }
+    }
+    & form{
+        & #firstname+ #email{
+            margin-right: 14.6px;
+        }
+        & .top{
+            & input{
+                padding-left: 8px;
+                margin-bottom: 9px;
+                height: 50px;
+                border: 1px solid #bababa;
+                border-radius: 5px;
+                outline: none;
+                min-width: 300px;
+                color: #666;
+                font-family: 'Asap';
+                font-style: italic;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                margin-left: 7px;
+                &:focus{
+                    border: 1px solid #2ec06c;
+                }
+                &::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+                &::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+                &:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+                &:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+                &:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+                &:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+                &:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+                &:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+            }
+            &--second{
+                margin: 10px 0;
+            }
+        }
+        & .message{
+            max-width: 600px;
+            display: flex;
+            & textarea{
+                order: 1px solid #bababa;
+                border-radius: 5px;
+                border-right: 0;
+                max-height: 162px;
+                padding-top: 11px;
+                padding-left: 18px;
+                color: #666;
+                font-family: 'Asap';
+                font-size: 16px;
+                font-style: italic;
+                line-height: 30px;
+                outline: none;
+                &:focus{
+                    border: 1px solid #2ec06c;
+                }
+            }
+            & input{
+                height: 100%;
+                left: -8px;
+                max-width: 40px;
+                background-color: #2ec06c;
+                border-radius: 0px 5px 5px 0px;
+                border: 1px solid #2ec06c;
+                cursor: pointer;
+                outline: none;
+                border-left: 0;
+                :hover{
+                    background-color:  #025f29;
+                }
+            }
+            & .submit{
+                display: flex;
+                margin-left: -32px;
+                text-align: center;
+                & img{
+                    position: absolute;
+                    margin-top: 72px;
+                    margin-left: 12px;
+                    cursor: pointer;
+                }
+                & input{
+                    &:hover{
+                        border: 1px solid red;
+                    } 
+                }
+            }
+        }
+    }
+}
+.facebook{
+    border: 1px solid #3b5998;
+    color: #3b5998;
+    &:hover{
+        background-color:#3b5998;
+        color: white;
+    }
+}
+.twitter{
+    border: 1px solid #00aced;
+    color: #00aced;
+    &:hover{
+        background-color: #00aced;
+        color: white;
+    }
+}
+.instagram{
+    border: 1px solid #517fa4;
+    color: #517fa4;
+    &:hover{
+        background-color: #517fa4;
+        color: white;
+    }
+}
+.dribbble{
+    border: 1px solid #ff0084;
+    color: #ff0084;
+    &:hover{
+        background-color: #ff0084;
+        color: white;
+    }
+}

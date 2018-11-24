@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="css/style.css")
+        link(href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet")
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous")
+    body
+        .container
+            .row
+                .head.col-12
+                    h1 Have any 
+                        span project!
+                    p Just send me a message I will help you and make you smile
+        .main
+            .container
+                .row
+                    .content.col-12
+                        .col-4
+                            .socmedia.col-12
+                                a(href="#", class="col-6 facebook")
+                                    i.fab.fa-facebook-f
+                                a(href="#", class="col-6 twitter")
+                                    i.fab.fa-twitter
+                            .socmedia.socmedia--sec.col-12
+                                a(href="#", class="col-6 instagram")
+                                    i.fab.fa-instagram
+                                a(href="#", class="col-6 dribbble")
+                                    i.fab.fa-dribbble
+                        form(action="#", class="col-8")
+                            .col-12.top
+                                input(type="text", name="firstname", id="firstname", class="col-6", placeholder="First Name")
+                                input(type="text", name="lastname", id="lastname", class="col-6", placeholder="Last Name")
+                            .col-12.top.top--second
+                                input(type="email", name="email", id="email", class="col-6", placeholder="Your Email")
+                                input(type="text", name="projectname", id="projectname", class="col-6", placeholder="Project Name")
+                            .col-12.message
+                                textarea(name="" id="" cols="30" rows="10" class="col-12" placeholder="Your Message.......")
+                                .submit.col-3
+                                    input(type="submit" value="" class="col-3")
+                                    img(src="./img/send.png", alt="")
