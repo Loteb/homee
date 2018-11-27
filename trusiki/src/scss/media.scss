@@ -1,0 +1,16 @@
+@media(min-width:1000px){
+    .container{
+        max-width: 960px;;
+    }
+    .models__content--first{
+        margin-left: -35px;
+    }
+    .models__content{
+        margin-right: 70px;
+    }
+}
+@media(min-width:1400px){
+    .container{
+        max-width: 1560px;
+    }
+}
