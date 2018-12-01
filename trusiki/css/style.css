@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "Century Gothic";
+    src:url('../fonts/GOTHIC.TTF');
+}
 .back_resize{
     background-repeat: no-repeat !important;
     background-size: cover !important;
