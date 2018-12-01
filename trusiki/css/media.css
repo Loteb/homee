@@ -1,6 +1,22 @@
-@media(min-width:1000px){
+@media(min-width:1400px){
+    .container{
+        max-width: 1560px;
+    }
+}
+/* @media(min-width:1000px){
     .container{
         max-width: 960px;;
+    }
+    .header{
+        height: 600px;
+    }
+    .header__menu{
+        padding-top: 3px;
+        padding-right: 30px;
+        margin-bottom: 150px;
+    }
+    .header__menu__btn{
+        font-size: 35px;
     }
     .models__content--first{
         margin-left: -35px;
@@ -8,9 +24,4 @@
     .models__content{
         margin-right: 70px;
     }
-}
-@media(min-width:1400px){
-    .container{
-        max-width: 1560px;
-    }
-}
+} */

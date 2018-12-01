@@ -1,14 +1,15 @@
 let rows=prompt();
-let message=' ';
-let symbol=prompt();
+let message=1;
+let mas=new Array(rows);
+mas[0]=new Array;
 for(let i=0; i<rows; i++){
     for(let j=i; j<rows; j++){
-        message+=' ';
+        mas[i][j]=message;
+        message++;
     }
-    for( let k=rows; k>=rows-(i*2); k--){
-        message+=symbol;
-        message+=' ';
-    }
-    message+='\n';
 }
-console.log(message);
+for(let i=0; i<rows; i++){
+    for(let j=i; j<rows; j++){
+        console.log(mas[i][j]);
+    }
+}
